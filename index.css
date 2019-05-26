@@ -1,8 +1,7 @@
 html,
 body {
-    width: 100vw;
-    height: 100vh;
-    overflow: auto;
+    min-width: 100vw;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -111,10 +110,13 @@ body {
     position: relative;
 }
 
+.top-bar {
+    position: sticky;
+    top: 0;
+}
+
 .bottom-bar {
-    position: absolute;
-    left: 0;
-    right: 0;
+    position: sticky;
     bottom: 0;
 }
 
