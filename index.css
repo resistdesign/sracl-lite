@@ -50,11 +50,29 @@ body {
     background-color: #222222;
 }
 
+.level-two {
+    background-color: #444444;
+}
+
+.level-three {
+    background-color: #777777;
+}
+
+.level-four {
+    background-color: #aaaaaa;
+}
+
+.level-five {
+    border: solid 0.05em rgba(255, 255, 255, 0.25);
+}
+
 .item {
     font-family: 'Electrolize', sans-serif;
     font-size: 1em;
     padding: 1em;
     color: #ffffff;
+    box-sizing: border-box;
+    break-inside: avoid;
 }
 
 .colapse {
@@ -84,4 +102,19 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.two-column {
+    column-count: 2;
+    column-gap: 0.5em;
+}
+
+.three-column {
+    column-count: 3;
+    column-gap: 0.5em;
+}
+
+.four-column {
+    column-count: 4;
+    column-gap: 0.5em;
 }
