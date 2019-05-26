@@ -124,12 +124,20 @@ body {
 }
 
 .vertical-gap {
-    margin: 0 0 -0.5em 0;
+    margin-bottom: -0.5em;
     box-sizing: border-box;
 }
 
 .vertical-gap > * {
-    margin: 0 0 0.5em 0;
+    margin-bottom: 0.5em;
+}
+
+.bottom-gap {
+    margin-bottom: 0.5em;
+}
+
+.bottom-gap.vertical-gap {
+    margin-bottom: 0;
 }
 
 .suite {
