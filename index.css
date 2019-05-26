@@ -8,8 +8,7 @@ body {
 }
 
 body {
-    background-color: #111111;
-    background: url('./background.jpg') center no-repeat;
+    background: #111111 url('./background.jpg') center no-repeat;
     background-size: cover;
 }
 
