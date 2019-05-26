@@ -123,6 +123,15 @@ body {
     background-color: #ffffff;
 }
 
+.vetical-gap {
+    margin: 0 0 -0.5em 0;
+    box-sizing: border-box;
+}
+
+.vetical-gap > * {
+    margin: 0 0 0.5em 0;
+}
+
 .suite {
     flex: 0 0 auto;
     display: flex;
@@ -130,12 +139,6 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 0 -0.5em 0;
-    overflow: hidden;
-}
-
-.suite > * {
-    margin: 0 0 0.5em 0;
 }
 
 .relative-base {
@@ -152,7 +155,7 @@ body {
     bottom: 0;
 }
 
-.bottom-bar.suite {
+.bottom-bar.vetical-gap {
     bottom: -0.5em;
 }
 
