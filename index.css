@@ -13,6 +13,30 @@ body {
     background-size: cover;
 }
 
+.fill-base-h {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.fill-base-v {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.fill-h-space {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+.fill-v-space {
+    flex: 1 0 auto;
+    height: 100%;
+}
+
 .top-line {
     border-top: solid 0.05em #ff9b00;
 }
@@ -105,6 +129,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .relative-base {
@@ -137,5 +162,7 @@ body {
 }
 
 hr {
+    flex: 0 0 auto;
+    width: 100%;
     border: solid 0.05em rgba(255, 255, 255, 0.25);
 }
