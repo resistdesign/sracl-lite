@@ -67,6 +67,7 @@ body {
 }
 
 .item {
+    min-height: 3em;
     font-family: 'Electrolize', sans-serif;
     font-size: 1em;
     padding: 1em;
@@ -81,7 +82,8 @@ body {
 }
 
 .interaction {
-    min-width: 5em;
+    min-width: 6em;
+    min-height: 3em;
     flex-direction: row;
     align-items: center;
     justify-content: center;
