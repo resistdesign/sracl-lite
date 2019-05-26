@@ -123,12 +123,12 @@ body {
     background-color: #ffffff;
 }
 
-.vetical-gap {
+.vertical-gap {
     margin: 0 0 -0.5em 0;
     box-sizing: border-box;
 }
 
-.vetical-gap > * {
+.vertical-gap > * {
     margin: 0 0 0.5em 0;
 }
 
@@ -155,8 +155,9 @@ body {
     bottom: 0;
 }
 
-.bottom-bar.vetical-gap {
+.bottom-bar.vertical-gap {
     bottom: -0.5em;
+    overflow: hidden;
 }
 
 .two-column {
