@@ -120,3 +120,7 @@ body {
     column-count: 4;
     column-gap: 0.5em;
 }
+
+hr {
+    border: solid 0.05em rgba(255, 255, 255, 0.25);
+}
