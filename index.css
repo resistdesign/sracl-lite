@@ -130,6 +130,12 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 0 -0.5em 0;
+    overflow: hidden;
+}
+
+.suite > * {
+    margin: 0 0 0.5em 0;
 }
 
 .relative-base {
@@ -144,6 +150,10 @@ body {
 .bottom-bar {
     position: sticky;
     bottom: 0;
+}
+
+.bottom-bar.suite {
+    bottom: -0.5em;
 }
 
 .two-column {
