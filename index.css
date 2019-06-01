@@ -188,3 +188,38 @@ hr {
     width: 100%;
     border: solid 0.05em rgba(255, 255, 255, 0.25);
 }
+
+.h-centered-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.v-centered-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hv-centered-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vh-centered-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    width: 3em;
+    height: 3em;
+    background: rgba(0,0,0,0) url('./loader.svg') center no-repeat;
+    background-size: contain;
+}
