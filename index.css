@@ -13,6 +13,14 @@ body {
     background-size: cover;
 }
 
+.padded {
+    padding: 0.5em;
+}
+
+.lofted {
+    margin: 0.5em;
+}
+
 .fill-base-h {
     display: flex;
     flex-direction: row;
@@ -217,9 +225,54 @@ hr {
     justify-content: center;
 }
 
+.view-width {
+    width: 100vw;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.view-height {
+    height: 100vh;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.quarter-unit-wide {
+    width: 0.25em;
+}
+
+.half-unit-wide {
+    width: 0.5em;
+}
+
+.one-unit-wide {
+    width: 1em;
+}
+
+.quarter-unit-tall {
+    height: 0.25em;
+}
+
+.half-unit-tall {
+    height: 0.5em;
+}
+
+.one-unit-tall {
+    height: 1em;
+}
+
 .loader {
     width: 3em;
     height: 3em;
     background: rgba(0,0,0,0) url('./loader.svg') center no-repeat;
     background-size: contain;
+}
+
+.progress {
+    background: rgba(0,0,0,0) url('./progress.svg') center no-repeat;
+    background-size: cover;
 }
