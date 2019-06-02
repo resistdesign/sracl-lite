@@ -9,21 +9,8 @@ body {
 }
 
 body {
-    position: relative;
-    background: #111111 url('./background.jpg') center fixed no-repeat;
+    background: #111111 url('./bg-lines.svg') center fixed no-repeat;
     background-size: cover;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0) url('./bg-lines.svg') center fixed no-repeat;
-    background-size: cover;
-    pointer-events: none;
 }
 
 .padded {
