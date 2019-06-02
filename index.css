@@ -241,6 +241,10 @@ hr {
     height: 100%;
 }
 
+.one-dot-wide {
+    width: 0.05em;
+}
+
 .quarter-unit-wide {
     width: 0.25em;
 }
@@ -251,6 +255,10 @@ hr {
 
 .one-unit-wide {
     width: 1em;
+}
+
+.one-dot-tall {
+    height: 0.05em;
 }
 
 .quarter-unit-tall {
@@ -275,4 +283,20 @@ hr {
 .progress {
     background: rgba(0,0,0,0) url('./progress.svg') center no-repeat;
     background-size: cover;
+}
+
+.quarter-second-delay {
+    animation-delay: 250ms;
+}
+
+.half-second-delay {
+    animation-delay: 500ms;
+}
+
+.one-second-delay {
+    animation-delay: 1s;
+}
+
+.two-second-delay {
+    animation-delay: 2s;
 }
