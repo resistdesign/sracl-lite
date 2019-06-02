@@ -23,6 +23,7 @@ body::before {
     left: 0;
     background: rgba(0, 0, 0, 0) url('./bg-lines.svg') center fixed no-repeat;
     background-size: cover;
+    pointer-events: none;
 }
 
 .padded {
@@ -108,7 +109,7 @@ body::before {
 }
 
 .level-five {
-    border: solid 0.05em rgba(255, 255, 255, 0.25);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .item {
@@ -206,7 +207,7 @@ body::before {
 hr {
     flex: 0 0 auto;
     width: 100%;
-    border: solid 0.05em rgba(255, 255, 255, 0.25);
+    border: solid 0.125em rgba(255, 255, 255, 0.1);
 }
 
 .h-centered-layout {
