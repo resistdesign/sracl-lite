@@ -308,3 +308,23 @@ hr {
 .v-reverse {
     transform: scale(1, -1);
 }
+
+.slide-in {
+    position: fixed;
+    top: 0;
+    left: -20vw;
+    width: 20vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0) url('./slide-in.jpg') center no-repeat;
+    background-size: cover;
+
+    background-clip: content-box;
+    border: solid 0 rgba(0, 0, 0, 0);
+    border-width: 0 0.5em 0 0;
+
+    transition: left 250ms ease-in-out;
+}
+
+.slide-in:hover {
+    left: 0;
+}
