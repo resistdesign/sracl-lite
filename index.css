@@ -273,18 +273,6 @@ hr {
     height: 1em;
 }
 
-.loader {
-    width: 3em;
-    height: 3em;
-    background: rgba(0,0,0,0) url('./loader.svg') center no-repeat;
-    background-size: contain;
-}
-
-.progress {
-    background: rgba(0,0,0,0) url('./progress.svg') center no-repeat;
-    background-size: cover;
-}
-
 .quarter-second-delay {
     animation-delay: 250ms;
 }
@@ -299,4 +287,24 @@ hr {
 
 .two-second-delay {
     animation-delay: 2s;
+}
+
+.loader {
+    width: 3em;
+    height: 3em;
+    background: rgba(0,0,0,0) url('./loader.svg') center no-repeat;
+    background-size: contain;
+}
+
+.progress {
+    background: rgba(0,0,0,0) url('./progress.svg') center no-repeat;
+    background-size: cover;
+}
+
+.h-reverse {
+    transform: scale(-1, 1);
+}
+
+.v-reverse {
+    transform: scale(1, -1);
 }
