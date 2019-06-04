@@ -7,6 +7,9 @@
     stroke:#FFFFFF;
     stroke-width:0.5;
     stroke-miterlimit:10;
+
+    transform-origin: center;
+    transform: rotate3d(1, 1, 0, 45deg) translate3d(0, 0, 0);
 }
 
 .st2{
@@ -14,6 +17,9 @@
     stroke:#FF9B00;
     stroke-width:0.5;
     stroke-miterlimit:10;
+
+    transform-origin: center;
+    transform: rotate3d(1, 1, 0, 45deg) translate3d(0, 0, 20px);
 }
 
 .st3{
@@ -21,4 +27,15 @@
     stroke:#0096E4;
     stroke-width:0.5;
     stroke-miterlimit:10;
+
+    transform-origin: center;
+    transform: rotate3d(1, 1, 0, 45deg)  translate3d(0, 0, 40px);
+
+    animation: rotate-anim 2s linear forwards infinite;
+}
+
+@keyframes rotate-anim {
+    50% {
+        transform: rotate3d(1, 1, 0, 180deg)  translate3d(0, 0, 40px);
+    }
 }
