@@ -29,10 +29,9 @@
         }
 
         .st2 {
-            fill:none;
-            stroke:#FF9B00;
-            stroke-width:0.5;
-            stroke-miterlimit:10;
+            stroke:none;
+            fill:#FF9B00;
+	    opacity: 0.9;
 
             transform-origin: center;
             animation: rotate2-anim 4.5s linear forwards infinite;
