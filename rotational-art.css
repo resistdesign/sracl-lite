@@ -2,40 +2,68 @@
     fill:#111111;
 }
 
-.st1{
+.st1 {
     fill:none;
     stroke:#FFFFFF;
     stroke-width:0.5;
     stroke-miterlimit:10;
 
     transform-origin: center;
-    transform: rotate3d(1, 1, 0, 45deg) translate3d(0, 0, 0);
+    animation: rotate1-anim 2s linear forwards infinite;
 }
 
-.st2{
+@keyframes rotate1-anim {
+    0% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 0);
+    }
+    50% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 180deg);
+    }
+    100% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 360deg);
+    }
+}
+
+.st2 {
     fill:none;
     stroke:#FF9B00;
     stroke-width:0.5;
     stroke-miterlimit:10;
 
     transform-origin: center;
-    transform: rotate3d(1, 1, 0, 45deg) translate3d(0, 0, 20px);
+    animation: rotate2-anim 2s linear forwards infinite;
 }
 
-.st3{
+@keyframes rotate2-anim {
+    0% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 0) translate3d(0, 0, 20px);
+    }
+    50% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 180deg) translate3d(0, 0, 20px);
+    }
+    100% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 360deg) translate3d(0, 0, 20px);
+    }
+}
+
+.st3 {
     fill:none;
     stroke:#0096E4;
     stroke-width:0.5;
     stroke-miterlimit:10;
 
     transform-origin: center;
-    transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 0, 0) translate3d(0, 0, 40px);
-
-    animation: rotate-anim 2s linear forwards infinite;
+    animation: rotate3-anim 2s linear forwards infinite;
 }
 
-@keyframes rotate-anim {
+@keyframes rotate3-anim {
+    0% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 0) translate3d(0, 0, 40px);
+    }
     50% {
-        transform: rotate3d(1, 1, 0, 180deg) rotate3d(0, 0, 1, 360deg) translate3d(0, 0, 40px);
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 180deg) translate3d(0, 0, 40px);
+    }
+    100% {
+        transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 1, 360deg) translate3d(0, 0, 40px);
     }
 }
