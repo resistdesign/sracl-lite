@@ -29,13 +29,13 @@
     stroke-miterlimit:10;
 
     transform-origin: center;
-    transform: rotate3d(1, 1, 0, 45deg)  translate3d(0, 0, 40px);
+    transform: rotate3d(1, 1, 0, 45deg) rotate3d(0, 0, 0, 0) translate3d(0, 0, 40px);
 
     animation: rotate-anim 2s linear forwards infinite;
 }
 
 @keyframes rotate-anim {
     50% {
-        transform: rotate3d(1, 1, 0, 180deg)  translate3d(0, 0, 40px);
+        transform: rotate3d(1, 1, 0, 180deg) rotate3d(0, 0, 1, 360deg) translate3d(0, 0, 40px);
     }
 }
