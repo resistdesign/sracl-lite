@@ -13,7 +13,7 @@
             stroke-miterlimit:10;
 
             transform-origin: center;
-            animation: rotate1-anim 2s linear forwards infinite;
+            animation: rotate1-anim 8s linear forwards infinite;
         }
 
         @keyframes rotate1-anim {
@@ -35,7 +35,7 @@
             stroke-miterlimit:10;
 
             transform-origin: center;
-            animation: rotate2-anim 2s linear forwards infinite;
+            animation: rotate2-anim 4.5s linear forwards infinite;
         }
 
         @keyframes rotate2-anim {
@@ -57,7 +57,7 @@
             stroke-miterlimit:10;
 
             transform-origin: center;
-            animation: rotate3-anim 2s linear forwards infinite;
+            animation: rotate3-anim 11s linear forwards infinite;
         }
 
         @keyframes rotate3-anim {
