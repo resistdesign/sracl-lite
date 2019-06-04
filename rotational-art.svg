@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 768" xml:space="preserve">
     <style type="text/css">
+        .st0 {
+            fill:#111111;
+	    opacity: 0.25;
+        }
+
         .st1 {
             fill:none;
             stroke:#FFFFFF;
@@ -68,6 +73,7 @@
         }
 
     </style>
+    <rect class="st0" width="1024" height="768" />
     <g>
         <path class="st1" d="M796.88062,376.84979c-0.01013-0.42145-0.01855-0.84332-0.03076-1.26434
 		c-0.06482-2.27313-0.15576-4.53949-0.27368-6.79889c-0.01697-0.32269-0.03711-0.64453-0.05493-0.96692
